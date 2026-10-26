@@ -1,0 +1,3 @@
+# Optional audio dependencies (Windows: prefer pipwin)
+sounddevice
+webrtcvad

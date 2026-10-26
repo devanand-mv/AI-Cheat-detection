@@ -1,0 +1,14 @@
+flask>=3.1.2
+matplotlib>=3.10.7
+streamlit>=1.50.0
+torch>=2.9.0
+torchaudio>=2.9.0
+torchvision>=0.24.0
+ultralytics>=8.3.222
+vosk>=0.3.45
+pipwin>=0.5.2
+
+# Optional audio (native extensions on Windows)
+# Install these only if you have build tools or use pipwin
+# sounddevice
+# webrtcvad

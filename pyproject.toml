@@ -1,0 +1,25 @@
+[project]
+name = "aipt-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+# Use a realistic minimum Python version that is compatible with common binary wheels.
+requires-python = ">=3.10"
+dependencies = [
+    "flask>=3.1.2",
+    "matplotlib>=3.10.7",
+    "pipwin>=0.5.2",
+    "streamlit>=1.50.0",
+    "torch>=2.9.0",
+    "torchaudio>=2.9.0",
+    "torchvision>=0.24.0",
+    "ultralytics>=8.3.222",
+    "vosk>=0.3.45",
+]
+
+# Optional dependency groups. Install audio support with: pip install .[audio]
+[project.optional-dependencies]
+audio = [
+    "sounddevice",
+    "webrtcvad",
+]
